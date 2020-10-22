@@ -20,6 +20,7 @@ metadata:
     k8s.io/display-name: Node.js 12
     maintainer: SoftwareCollections.org <sclorg@redhat.com>
     name: kabanero/nodejs-express
+    namespace: kab-njse
     openshift.io/expose-services: 8080:http
     openshift.io/tags: builder,nodejs,nodejs12
     redhat.com/build-host: cpt-1008.osbs.prod.upshift.rdu2.redhat.com
@@ -55,7 +56,6 @@ metadata:
     image.opencontainers.org/title: appsodyproject
     stack.appsody.dev/id: nodejs-express
     stack.appsody.dev/version: 0.4.10
-  namespace: kab-njse
 spec:
   applicationImage: dev.local/appsodyproject
   createKnativeService: false
